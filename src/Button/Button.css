@@ -1,0 +1,28 @@
+.button {
+    width: 100%;
+    background-color: #5E81AC;
+    color: #E5E9F0;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #81A1C1;
+}
+
+.button:active {
+    background-color: #4a6b94;
+}
+
+.button-charging {
+    background-color: #A3BE8C;
+}
+
+@media(min-width:500px) {
+    .button {
+        width: 200px;
+    }
+}
